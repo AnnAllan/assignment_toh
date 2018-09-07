@@ -1,6 +1,7 @@
 
 class Tower
-  def main
+  def play
+    #set up
     winner = false
     puts "Welcome to Tower of Hanoi"
     puts "Instructions:"
@@ -143,4 +144,6 @@ class Tower
     end
   end
 end
-main
+
+t = Tower.new
+t.play
